@@ -2,7 +2,7 @@
   "name": "elephantreader",
   "version": "0.1.0",
   "description": "Evernote intelligent spaced repetition book reminder",
-  "main": "server.js",
+  "main": "lib/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/juvoni/elephantreader"
+  },
+  "dependencies": {
+    "cron": "~1.0.4",
+    "evernote": "~1.25.3",
+    "time": "~0.10.0"
   }
 }
